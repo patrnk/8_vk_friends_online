@@ -2,6 +2,20 @@
 
 A small script that prints your online friends on VK social network.
 
+# Usage
+
+The list of your online friends will be different:
+```
+$ python vk_friends_online.py
+Login: <your login>
+Password: <your password>
+Here's your online friends:
+* Anton Kuzmenko
+* Kostya Kotikov
+* Artyom Lomonosov
+* Rinat Zubaidullin
+```
+
 # How to Install
 
 Python 3 should be already installed. Then use pip (or pip3 if there is a conflict with old Python 2 setup) to install dependencies:
