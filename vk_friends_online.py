@@ -7,7 +7,7 @@ import vk
 def get_online_friends(login, password, app_id):
     # Implementation notes:
     #   We will use friends.get instead of friends.getOnline.
-    # The former is inefficient and error-prone:
+    # The latter is inefficient and error-prone:
     # https://gist.github.com/patrnk/eba5ab7bf1704253cc01aa78bcb07005
     #   One friends.get request can only return 5000 friends,
     # whereas a user can have up to 10000 friends online. That's why we make a second request
