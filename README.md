@@ -1,6 +1,6 @@
 # Watcher of Friends Online
 
-[TODO. There will be project description]
+A small script that prints your online friends on VK social network.
 
 # How to Install
 
@@ -9,8 +9,7 @@ Python 3 should be already installed. Then use pip (or pip3 if there is a confli
 ```bash
 pip install -r requirements.txt # alternatively try pip3
 ```
-
-Remember, it is recommended to use [virtualenv/venv](https://devman.org/encyclopedia/pip/pip_virtualenv/) for better isolation.
+After that, register a standalone applicaton at https://vk.com/apps?act=manage and put your "Application ID" into `VK_APP_ID` environment variable.
 
 # Project Goals
 
